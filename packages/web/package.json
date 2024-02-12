@@ -1,0 +1,17 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && copyfiles public/* dist",
+    "start": "live-server public"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "live-server": "^1.2.1",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "library": "^1.0.0"
+  }
+}
